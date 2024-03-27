@@ -40,7 +40,7 @@ function detail(e) {
 	
 	const p=document.getElementById("creden")
 	if (val=="Age") {
-		p.innerText=details[0].registered.age
+		p.innerText=details[0].registered.age 
 		p.hidden=false; 
 	} else if(val=="Email"){
 		p.innerText=details[0].email

@@ -25,9 +25,9 @@ let details=[];
 	 age.textContent="Age";
 	 email.textContent="Email";
 	 phone.textContent="Phone";
-	 age.data-attr="age"
-	 phone.data-attr="phone"
-	 email.data-attr="email"
+	 age.dataset.attr="age"
+	 phone.dataset.attr="phone"
+	 email.dataset.attr="email" 
 	 age.addEventListener("click",detail)
 	 email.addEventListener("click",detail)
 	 phone.addEventListener("click",detail)
@@ -41,7 +41,7 @@ function detail(e) {
 	const p=document.getElementById("creden")
 	if (val=="Age") {
 		p.innerText=details[0].registered.age
-		p.hidden=false;
+		p.hidden=false; 
 	} else if(val=="Email"){
 		p.innerText=details[0].email
 		p.hidden=false;

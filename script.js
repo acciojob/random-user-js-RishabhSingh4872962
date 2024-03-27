@@ -1,6 +1,6 @@
 //your code here
 const profile=document.getElementById("profile");
-const btn=document.getElementById("btn");
+const btn=document.getElementById("getUser");
 
 let details=[];
 

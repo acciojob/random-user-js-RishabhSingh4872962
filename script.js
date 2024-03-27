@@ -25,9 +25,9 @@ let details=[];
 	 age.textContent="Age";
 	 email.textContent="Email";
 	 phone.textContent="Phone";
-	 age.data-age="age"
-	 phone.data-phone="phone"
-	 email.data-email="email"
+	 age.data-attr="age"
+	 phone.data-attr="phone"
+	 email.data-attr="email"
 	 age.addEventListener("click",detail)
 	 email.addEventListener("click",detail)
 	 phone.addEventListener("click",detail)

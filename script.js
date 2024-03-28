@@ -40,10 +40,10 @@ function detail(e){
 	const val=e.target.innerText.toLowerCase();
 	const p=document.getElementById("creden")
 	if (val=="age" ) {
-		p.innerText=details[0].registered.age 
+		p.innerText=details[0].registered.age;
 		p.hidden=false; 
 	} else if(val=="email"){
-		p.innerText=details[0].email
+		p.innerText=details[0].email;
 		p.hidden=false;
 	}else if(val=="phone"){
 		p.innerText=details[0].phone;

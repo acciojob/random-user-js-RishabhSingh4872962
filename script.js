@@ -35,9 +35,10 @@ let details=[];
 }
 getAnotherUser();
 
-function detail(e) {
+function detail(e){
+	try {
 	const val=e.target.innerText;
-	
+	console.log(val);
 	const p=document.getElementById("creden")
 	if (val=="Age") {
 		p.innerText=details[0].registered.age 
@@ -49,5 +50,9 @@ function detail(e) {
 		p.innerText=details[0].phone;
 		p.hidden=false;
 		
+	
+}
+	} catch (error) {
+		console.log(error)
 	}
 }

@@ -37,16 +37,15 @@ getAnotherUser();
 
 function detail(e){
 	try {
-	const val=e.target.innerText;
-	console.log(val);
+	const val=e.target.innerText.toLowerCase();
 	const p=document.getElementById("creden")
-	if (val=="Age") {
+	if (val=="age" ) {
 		p.innerText=details[0].registered.age 
 		p.hidden=false; 
-	} else if(val=="Email"){
+	} else if(val=="email"){
 		p.innerText=details[0].email
 		p.hidden=false;
-	}else{
+	}else if(val=="phone"){
 		p.innerText=details[0].phone;
 		p.hidden=false;
 		
